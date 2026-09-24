@@ -41,3 +41,11 @@ map("n", "<leader>dc", "<cmd>DapContinue<cr>", { desc = "DAP: Start/Continue" })
 map("n", "<leader>du", function()
   require("dapui").toggle()
 end, { desc = "DAP: Toggle UI" })
+
+-- ============================================================================
+-- Alternative shortcut: Leader + bd
+-- ============================================================================
+
+map("n", "<leader>bd", function()
+  Snacks.bufdelete()
+end, { desc = "Delete Buffer" })
