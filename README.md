@@ -1,5 +1,5 @@
 
-```markdown
+
 # ⚡ Neovim Configuration (`achente1/neovim`)
 
 A fast, modular, and language-rich Neovim distribution built on top of **[LazyVim](https://www.lazyvim.org/)** and **`lazy.nvim`**. Pre-configured with out-of-the-box support for over 15 programming languages, automated LSP management, debugging, database tooling, AI autocompletion, and terminal UI integrations.
